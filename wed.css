@@ -1,0 +1,148 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html , body {
+      height: 100%; 
+      width: 100%;
+  } 
+  #main{
+    background-color: #f5f3ea;
+  }
+  #page1 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f5f3ea;
+    position: relative;
+  }
+  #page1 #nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 90px;
+width: 100%;
+padding: 45px 45px;
+}
+#page1 #nav h1 span {
+     color: orangered;
+     font-size: 65px;
+
+}
+   
+#page1 #nav1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+   
+    }
+#page1 #nav2 {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+       
+        }
+#page1 #nav2 h5:nth-child(2) {
+
+    color: orangered;
+
+}
+#page1 #nav2 h5:nth-child(3) {
+    color: white;
+   background-color: black;
+   border-radius: 20px;
+   padding: 8px 8px;
+
+} 
+#page1 #clr {
+    font-size: 50px;
+    margin-left: 100px;
+}
+#center{
+    text-align: center;
+    line-height: 60px;
+    margin-top: 50px;
+}
+#center h1:nth-child(2){
+    color: orangered;
+    font-size: 60px;
+    
+}
+#center h1:nth-child(3){
+    color: black;
+    font-size: 60px;
+    margin-top: 90px;
+    
+}
+#center i {
+    margin-right: 900px;
+    font-size: 50px;
+    
+}
+#center #show{
+    margin-left: 990px;
+    font-size: 50px;
+}
+#center p1 
+{
+ color: black;
+ margin-top: 100px;
+}
+
+#page1 img {
+ margin-top: 3%;
+margin-left: 8%;
+width: 84%;
+}
+#page2 {
+  min-height: 100vh;
+  width: 100%;
+background-color: #f5f3ea;
+ padding: 80px 100px;
+text-align: center;
+border: 2px solid black;
+
+}
+#page2 h2 {
+    margin-top: 15px;
+    font-size: 38px;
+}
+#page2 p {
+    font-size: 18px;
+}
+#page2 #contn {
+   
+width: 100%;
+background-color: #f5f3ea;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+#contn .ele {
+height: 50vh;
+width: 30%;
+background-color:#f5f3ea ;
+margin: 30px 50px;
+object-fit: cover;
+object-position: center;
+}
+#contn .ele img {
+height: 80%;
+width: 95%;
+object-fit: cover;
+object-position: center;
+margin-top: 10px;
+border: 3px solid black;
+}
+#contn .ele img:hover {
+
+filter: grayscale(5);
+}
+#contn .ele:hover {
+    background-color: lightsalmon;
+}
+#contn .ele h3{
+    margin-top: 20px;
+}
+
